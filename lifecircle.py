@@ -50,5 +50,3 @@ for x in range(youryear):
                 rectangle(life,-200+x*20,y*20,20,20,5,"white","green")
 life.hideturtle()
 turtle.done()
-turtle.getscreen()
-turtle.getcanvas().postscript(file="life.eps")
